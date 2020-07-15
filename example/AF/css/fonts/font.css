@@ -1,0 +1,168 @@
+@font-face {
+	font-family: 'ProximaNova-Black';
+	src: url('ProximaNova-Black.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-BlackIt';
+	src: url('ProximaNova-BlackIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('ProximaNova-Bold.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-BoldIt';
+	src: url('ProximaNova-BoldIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Black';
+	src: url('ProximaNovaCond-Black.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-BlackIt';
+	src: url('ProximaNovaCond-BlackIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Bold';
+	src: url('ProximaNovaCond-Bold.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-BoldIt';
+	src: url('ProximaNovaCond-BoldIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Extrabld';
+	src: url('ProximaNovaCond-Extrabld.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-ExtrabldIt';
+	src: url('ProximaNovaCond-ExtrabldIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Light';
+	src: url('ProximaNovaCond-Light.ttf.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-LightIt';
+	src: url('ProximaNovaCond-LightIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Regular';
+	src: url('ProximaNovaCond-Regular.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-RegularIt';
+	src: url('ProximaNovaCond-RegularIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Semibold';
+	src: url('ProximaNovaCond-Semibold.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-SemiboldIt';
+	src: url('ProximaNovaCond-SemiboldIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Thin';
+	src: url('ProximaNovaCond-Thin.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaCond-ThinIt';
+	src: url('ProximaNovaCond-ThinIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Black';
+	src: url('ProximaNovaExCn-Black.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-BlackIt';
+	src: url('ProximaNovaExCn-BlackIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Bold';
+	src: url('ProximaNovaExCn-Bold.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-BoldIt';
+	src: url('ProximaNovaExCn-BoldIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Extrabld';
+	src: url('ProximaNovaExCn-Extrabld.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-ExtrabldIt';
+	src: url('ProximaNovaExCn-ExtrabldIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Light';
+	src: url('ProximaNovaExCn-Light.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-LightIt';
+	src: url('ProximaNovaExCn-LightIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Regular';
+	src: url('ProximaNovaExCn-Regular.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-RegularIt';
+	src: url('ProximaNovaExCn-RegularIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Semibold';
+	src: url('ProximaNovaExCn-Semibold.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-SemiboldIt';
+	src: url('ProximaNovaExCn-SemiboldIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-Thin';
+	src: url('ProximaNovaExCn-Thin.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNovaExCn-ThinIt';
+	src: url('ProximaNovaExCn-ThinIt.ttf');	
+}
+@font-face {
+	font-family: 'ProximaNova-Extrabld';
+	src: url('ProximaNova-Extrabld.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-ExtrabldIt';
+	src: url('ProximaNova-ExtrabldIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('ProximaNova-Light.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-LightIt';
+	src: url('ProximaNova-LightIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('ProximaNova-Regular.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-RegularIt';
+	src: url('ProximaNova-RegularIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('ProximaNova-Semibold.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-SemiboldIt';
+	src: url('ProximaNova-SemiboldIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNova-ThinIt';
+	src: url('ProximaNova-ThinIt.ttf');
+}
+@font-face {
+	font-family: 'ProximaNovaT-Thin';
+	src: url('ProximaNovaT-Thin.ttf');
+}

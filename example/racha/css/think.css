@@ -1,0 +1,92 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #79CDCC!important;
+}
+.think-title{
+	color: #ffffff;
+	font-family: 'Cervo';
+	font-weight: 400;
+	line-height: 70.1px;
+	font-size: 70px;
+	letter-spacing: 1.2px;
+}
+.think-subtitle{
+	color: #ffffff;
+	font-family: 'Cervo';
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 26px;
+	letter-spacing: 0.97px;}
+.think-discr{
+	display: inline-block;
+	color: #ffffff;
+font-family: 'Cervo';
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+/* Text style for "Подпишитес" */
+letter-spacing: 0.68px;
+vertical-align: middle;
+text-align: left;
+margin-right: 22px;
+}
+.think-discr span{
+	display: block;
+}
+.think-stay{
+color: #ffffff;
+font-family: 'Cervo';
+font-size: 30px;
+font-weight: 400;
+line-height: 24.86px;
+letter-spacing: 0.68px;
+margin-bottom: 20px;
+margin-top: 40px;}
+.think .container{
+	text-align: center;
+}
+.wrapper{
+	position: relative;
+	padding-top: 15%;
+}
+.think-link{
+	display: inline-block;
+}
+.think-links{
+	vertical-align: middle;
+	display: inline-block;
+}
+.think-link img{
+	width: 30px;
+}
+.think-script{
+    font-size: 44px;
+    color: white;
+  	background: url('../img/45.gif') center no-repeat;}
+ .button{
+		background-color: #F9F51E;;
+    background-size: cover;
+		width: 237px;
+		height: 85px;
+		color: #ffffff;
+		font-family: "Cervo";
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 33.42px;
+		padding: 15px;
+		display: block;
+		margin: auto;
+	border-radius: 5px;
+cursor: pointer;
+z-index: 101;
+position: relative;
+color: #1ABC9C;
+}
+.thanks-vidoe{
+	width: 100%;
+	max-width: 600px;
+	height: 300px;
+}

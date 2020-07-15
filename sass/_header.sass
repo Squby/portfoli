@@ -1,0 +1,40 @@
+.header
+    background: rgba(0,0,0,.3) url("../img/header/main.jpg") no-repeat
+    background-size: cover
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-left: 10px
+    padding-right: 10px
+    &-blure
+        background-color: rgba(0,0,0,.6)
+        height: 100%
+        position: absolute
+        width: 100%
+        // top: 0
+        // left: 0
+    &-text
+        z-index: 1
+        text-align: center
+        &__main
+            font-size: 46px
+            color: $main-color
+
+        &__substr
+            padding-top: 50px
+            font-size: 36px
+            color: $sub-color
+    &-arrowDown
+        z-index: 1
+        width: 3%
+        height: 3%
+        fill: #747171
+        position: absolute
+        bottom: 0
+        margin-bottom: 5%
+        a
+            svg
+                &:hover
+                    fill: #fff
+        

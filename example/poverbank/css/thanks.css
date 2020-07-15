@@ -1,0 +1,25 @@
+.thanks{
+  width: 100%;
+  height: 100%;
+  background-color: #7CC576;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:36px;
+}
+ body{
+ 	 background-color: #7CC576;
+ }
+ .thanks-title{
+ 	color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 42px;
+    font-weight: 400;
+ }
+.thanks-link{
+	color: #252628;
+	text-decoration: none;
+}
+.wrapper{
+	margin-top: 30%;
+}

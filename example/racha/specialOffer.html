@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/video.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<meta charset="UTF-8">
+	<title>Специальное предложение</title>
+</head>
+<body>
+	<!-- <video width="320" height="240" controls>
+<source src="4444.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> -->
+	<!-- 	<div class="donttouch"></div> -->
+	 <div id="video-placeholder"><video width="400" height="320" autoplay controls>
+   <source src="4444.mp4">
+   Тег video не поддерживается вашим браузером.
+  </video>
+	 	<!-- <iframe id="ytplayer" width="560" height="315" src="https://www.youtube.com/embed/jyGM9l_0LYY?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe> --></div>
+	<a href="vk.com" class="button">ПОЛУЧИТЬ СПЕЦ ПРЕДЛОЖЕНИЕ</a>
+		
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src=""></script>
+<!-- 	<script>
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {$('.button').click();}, 4000); 
+  $('.ytp-button').click();
+});
+	</script>
+
+<script type="text/javascript">
+//соединяемся с API Youtube
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+function checkPosition(){
+//функция проверки видимости элемента на jquery
+var div_position = $('#video-placeholder').offset();
+var div_top = div_position.top;
+var div_left = div_position.left;
+var div_width = $('#video-placeholder').width();
+var div_height = $('#video-placeholder').height();
+var top_scroll = $(document).scrollTop();
+var left_scroll = $(document).scrollLeft();
+var screen_width = $(window).width();
+var screen_height = $(window).height()+600;
+var see_x1 = left_scroll;
+var see_x2 = screen_width + left_scroll;
+var see_y1 = top_scroll;
+var see_y2 = screen_height + top_scroll;
+var div_x1 = div_left;
+var div_x2 = div_left + div_height;
+var div_y1 = div_top;
+var div_y2 = div_top + div_width;
+if( div_x1 >= see_x1 && div_x2 <= see_x2 && div_y1 >= see_y1 && div_y2 <= see_y2 ){
+//если элемент видим на экране, запускаем видео Youtube
+player.playVideo();
+}else{
+//если не видим, ставим видео на паузу
+player.pauseVideo();
+}
+}
+
+$(document).ready(function(){
+//запускаем функцию проверки видимости элемента
+$(document).scroll(function(){
+checkPosition();
+});
+$(window).resize(function(){
+checkPosition();
+});
+});
+
+function onYouTubeIframeAPIReady() {
+//рисуем видеопроигрыватель Youtube
+player = new YT.Player('video-placeholder', {
+width: 600, height: 400, //размеры окна видео
+playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo': 0, 'rel': 0}, //тонкие настройки видеопроигрывателя
+videoId: 'jyGM9l_0LYY', //здесь id ролика
+});}
+</script>
+ -->
+
+<!-- 	<script>
+		 window.onYouTubeIframeAPIReady = function() {
+
+            player = new YT.Player('video', {
+                width: auto,
+                height: auto,
+                playerVars: { 'autoplay': 1, 'controls': 0 },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+
+        }
+	</script> -->
+</body>
+</html>

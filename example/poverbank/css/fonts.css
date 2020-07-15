@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'ArialNarrow';
+		src: url(../fonts/Arial-Narrow.ttf);}
+@font-face{
+		font-family: 'Panton';
+		src: url(../fonts/Panton-Bold.ttf);
+}
+@font-face{
+	font-family: 'Panton-SemiBold';
+		src: url(../fonts/Panton-SemiBold.otf);}
+}

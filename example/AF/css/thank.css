@@ -1,0 +1,43 @@
+body{
+	background: rgba(28,142,212,1);
+	background: -moz-linear-gradient(left, rgba(28,142,212,1) 0%, rgba(131,77,218,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28,142,212,1)), color-stop(100%, rgba(131,77,218,1)));
+	background: -webkit-linear-gradient(left, rgba(28,142,212,1) 0%, rgba(131,77,218,1) 100%);
+	background: -o-linear-gradient(left, rgba(28,142,212,1) 0%, rgba(131,77,218,1) 100%);
+	background: -ms-linear-gradient(left, rgba(28,142,212,1) 0%, rgba(131,77,218,1) 100%);
+	background: linear-gradient(to right, rgba(28,142,212,1) 0%, rgba(131,77,218,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8ed4', endColorstr='#834dda', GradientType=1 );
+	font-family: 'Proxima Nova', sans-serif;}
+.thankyou-main{
+	width: 361px;
+	border: 1px solid #fff;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 90px;
+	padding-left: 64px;
+	padding-right: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+.thankyou-main>span{
+	display: block;
+	margin-top: 21px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	padding-bottom: 90px;
+}
+a{
+	margin-bottom: -10px;
+	background-color: #FFDC38;
+	color: #000;
+	text-decoration: none;  
+	border-radius: 50px;
+	padding: 20px;
+}

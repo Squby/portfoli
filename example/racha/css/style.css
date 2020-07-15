@@ -1,0 +1,1140 @@
+.aboutIsland {
+  padding-bottom: 37px;
+  padding-top: 20px; }
+  .aboutIsland-title {
+    font-family: "BebasNeueBold";
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 83.25px;
+    color: #f5218d;
+    text-align: center; }
+  .aboutIsland-discr {
+    color: #606060;
+    font-family: "Cervo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.9px;
+    text-align: justify; }
+    .aboutIsland-discr span {
+      display: block;
+      margin-top: 20px; }
+
+.excursionDescription {
+  background-color: #266d7a;
+  padding-top: 38px;
+  padding-bottom: 45px; }
+  .excursionDescription-title {
+    color: #ffffff;
+    font-family: 'Cervo';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.1px;
+    letter-spacing: 2.4px;
+    max-width: 803px;
+    text-align: center;
+    margin: auto; }
+  .excursionDescription-discr {
+    font-family: 'BebasNeueBook';
+    color: #fff;
+    margin: auto;
+    margin-top: 35px;
+    max-width: 320px; }
+    .excursionDescription-discr span {
+      display: block;
+      margin-top: 10px;
+      font-weight: 300;
+      line-height: 19px;
+      letter-spacing: 1px; }
+
+.footer {
+  background-color: #266d7a;
+  height: 70px;
+  padding-top: 20px; }
+  .footer-discr {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: Cervo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.1px;
+    text-transform: uppercase;
+    letter-spacing: 2.04px;
+    text-align: left; }
+  .footer-payset {
+    display: inline-block;
+    background: url("../img/footer/payset.png") center no-repeat;
+    width: 260px;
+    height: 37px;
+    vertical-align: middle;
+    text-align: right; }
+
+@media (min-width: 1200px) {
+  .programm {
+    background-size: contain; } }
+
+@media (max-width: 1200px) {
+  .wrapper-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .data-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .has-value {
+    font-family: "Verdana";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #6ec9c8;
+    padding-left: 10px;
+    background-color: #fff !important;
+    margin-top: 35px; }
+  .main-title {
+    margin-top: 50px;
+    text-align: center; }
+  .main-discr {
+    margin-top: 70px;
+    text-align: center; }
+  .main-button {
+    margin: auto; }
+  .hidden-mobile {
+    display: none; }
+  .excursionDescription-discr {
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px; }
+  .pay-element__text {
+    max-width: 190px; }
+  .pay-element {
+    margin-bottom: 15px; }
+  .order-wrapper {
+    margin-bottom: 30px; }
+  .include-element {
+    margin-bottom: 35px; }
+  .programm-day p {
+    font-size: 26px;
+    letter-spacing: 2px; }
+  .options-tab__total {
+    font-size: 28px; }
+  .options-tab__inf {
+    font-size: 28px; }
+  .data-input {
+    width: 90%;
+    font-size: 18px; }
+  .options-tab {
+    padding-top: 20px; }
+  .excursionDescription-discr {
+    margin-top: 0; }
+    .excursionDescription-discr span {
+      margin-top: 0; }
+      .excursionDescription-discr span:after {
+        content: '-';
+        display: block;
+        font-size: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+  .excursionDescription-discr2 span:last-child:after {
+    content: '';
+    display: none; }
+  .excursionDescription .container .row {
+    margin-top: 15px; }
+  .data {
+    padding-top: 0; }
+    .data-input {
+      margin-top: 35px; } }
+
+@media (max-width: 576px) {
+  .programm-day p {
+    font-size: 16px; }
+  .options-tab__inf {
+    font-size: 17px;
+    display: inline-block; }
+  .options-tab__total {
+    font-size: 18px;
+    display: inline-block; }
+  .transport-blue__title {
+    line-height: 40px; }
+  .transport-blue {
+    padding-top: 15px; }
+  .whywe-title {
+    font-size: 40px; }
+  .main-logo {
+    background-size: contain;
+    margin: 15px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto; }
+  .main-title {
+    line-height: 50px; }
+  .main-contact {
+    position: relative;
+    margin: auto;
+    right: 0; }
+    .main-contact a {
+      background-size: contain; }
+  .main-contact__phone {
+    width: 155px; }
+  .footer-payset {
+    background-size: contain;
+    vertical-align: middle; }
+  .footer-discr {
+    font-size: 9px;
+    vertical-align: middle; } }
+
+@media (max-width: 368px) {
+  .order-list {
+    padding-top: 0;
+    padding-bottom: 0; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+body {
+  margin: 0; }
+
+* {
+  outline: none;
+  border: none; }
+  *:focus {
+    outline: none;
+    border: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+.line-pink {
+  height: 35px;
+  background-color: #f5218d; }
+
+.button {
+  cursor: pointer; }
+
+.slick-dots li button:before {
+  font-size: 40px;
+  color: #58C1BF; }
+
+.slick-dots li.slick-active button:before {
+  color: #58C1BF !important; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+body {
+  margin: 0; }
+
+* {
+  outline: none;
+  border: none; }
+  *:focus {
+    outline: none;
+    border: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+@font-face {
+  font-family: 'Cervo';
+  src: url(../fonts/Cervo-Regular.otf); }
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(../fonts/BebasNeue.ttf); }
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url(../fonts/BebasNeueBold.ttf); }
+
+@font-face {
+  font-family: 'KobzarKS';
+  src: url(../fonts/Kobzarks.ttf); }
+
+@font-face {
+  font-family: 'BebasNeueBook';
+  src: url(../fonts/9116.otf); }
+
+.main {
+  background: url("../img/main/main-bg.png") center no-repeat;
+  background-size: cover;
+  padding-bottom: 70px; }
+  .main-contact {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    right: 5%;
+    top: 2%; }
+    .main-contact__phone {
+      background: url("../img/main/phone-bg.png") center no-repeat;
+      width: 176px;
+      height: 47px;
+      color: #ffffff;
+      font-family: 'Cervo';
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: center;
+      padding-top: 12px; }
+    .main-contact__whatsapp {
+      background: url("../img/main/whatsapp.svg") center no-repeat;
+      height: 44px;
+      width: 44px;
+      margin-left: 10px; }
+    .main-contact__viber {
+      background: url("../img/main/viber.svg") center no-repeat;
+      height: 44px;
+      width: 44px;
+      margin-left: 10px; }
+    .main-contact__telegram {
+      background: url("../img/main/telegram.svg") center no-repeat;
+      height: 44px;
+      width: 44px;
+      margin-left: 10px; }
+    .main-contact a {
+      z-index: 2; }
+  .main-logo {
+    background: url("../img/main/logo.png") center no-repeat;
+    height: 125px;
+    width: 378px;
+    margin-top: 20px; }
+  .main-menu {
+    text-align: right; }
+    .main-menu__elements {
+      margin-top: 85px; }
+    .main-menu__element {
+      list-style-type: none;
+      display: inline;
+      margin-right: 30px; }
+      .main-menu__element a {
+        color: #f5218d;
+        font-family: 'Cervo';
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 35.1px;
+        color: #f5218d;
+        text-decoration: none; }
+  .main-title {
+    color: #ffffff;
+    font-family: "KobzarKS";
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 77.41px;
+    margin-top: 230px; }
+    .main-title span {
+      display: block; }
+    .main-title__big {
+      color: #f9f51e;
+      font-family: "BebasNeueBold";
+      font-size: 91px;
+      font-weight: 700;
+      line-height: 83.25px; }
+    .main-title__bottom {
+      color: #ffffff;
+      font-family: "BebasNeueBold";
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 33.42px; }
+  .main-discr {
+    color: #fff;
+    font-family: "BebasNeueBold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-top: 285px;
+    text-align: right; }
+    .main-discr span {
+      display: block;
+      color: #f9f51e; }
+  .main-button {
+    background: url("../img/yellow.svg") center no-repeat;
+    width: 237px;
+    height: 55px;
+    color: #ffffff;
+    font-family: "BebasNeueBold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.42px;
+    padding: 15px;
+    display: block;
+    margin-left: auto; }
+
+.aboutIsland {
+  padding-bottom: 37px;
+  padding-top: 20px; }
+  .aboutIsland-title {
+    font-family: "BebasNeueBold";
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 83.25px;
+    color: #f5218d;
+    text-align: center; }
+  .aboutIsland-discr {
+    color: #606060;
+    font-family: "Cervo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.9px;
+    text-align: justify; }
+    .aboutIsland-discr span {
+      display: block;
+      margin-top: 20px; }
+
+.excursionDescription {
+  background-color: #266d7a;
+  padding-top: 38px;
+  padding-bottom: 45px; }
+  .excursionDescription-title {
+    color: #ffffff;
+    font-family: 'Cervo';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.1px;
+    letter-spacing: 2.4px;
+    max-width: 803px;
+    text-align: center;
+    margin: auto; }
+  .excursionDescription-discr {
+    font-family: 'BebasNeueBook';
+    color: #fff;
+    margin: auto;
+    margin-top: 35px;
+    max-width: 320px; }
+    .excursionDescription-discr span {
+      display: block;
+      margin-top: 10px;
+      font-weight: 300;
+      line-height: 19px;
+      letter-spacing: 1px; }
+
+.beaches {
+  background: url("../img/beaches/beaches-bg.png");
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .beaches-title {
+    color: #ffffff;
+    font-family: "BebasNeueBold";
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 83.25px;
+    text-align: center;
+    margin-bottom: 20px; }
+  .beaches-discr {
+    color: #ffffff;
+    font-family: 'Cervo';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.9px; }
+    .beaches-discr p {
+      margin-bottom: 15px; }
+      .beaches-discr p span {
+        color: #266d7a;
+        letter-spacing: 0.9px; }
+  .beaches-img {
+    background: url("../img/beaches/beaches-img.png") center no-repeat;
+    min-height: 375px;
+    background-size: cover; }
+
+.timer {
+  background-color: #58c1bf;
+  padding-top: 33px;
+  padding-bottom: 40px; }
+  .timer-button {
+    background: url("../img/yellow.svg") center no-repeat;
+    width: 237px;
+    height: 55px;
+    color: #ffffff;
+    font-family: "BebasNeueBold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.42px;
+    padding: 15px;
+    display: block;
+    margin: auto; }
+  .timer-script {
+    display: inline-block;
+    vertical-align: middle; }
+  .timer-discr {
+    color: #ffffff;
+    font-family: "Cervo";
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 83.25px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-right: 15px; }
+  .timer .container {
+    text-align: center; }
+
+.programm {
+  background: url("../img/programm/programm-bg.png") center no-repeat;
+  background-size: cover;
+  height: 1700px;
+  padding-top: 5px; }
+  .programm-gray {
+    background: rgba(242, 242, 242, 0.8);
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .programm-title {
+    margin-top: 20px;
+    text-align: center;
+    color: #266d7a;
+    font-family: "BebasNeueBold";
+    font-size: 46px; }
+  .programm-day {
+    max-width: 90%;
+    vertical-align: middle;
+    color: #606060;
+    text-align: center;
+    border: 2px solid #58c1bf;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'BebasNeueBook'; }
+    .programm-day p {
+      text-align: left;
+      font-size: 20px; }
+      .programm-day p span {
+        color: #58c1bf;
+        margin-right: 15px;
+        font-size: 24px; }
+    .programm-day__title {
+      margin-top: -50px;
+      background-color: #F5F5F5;
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #58c1bf;
+      font-size: 32px;
+      border-radius: 15px; }
+  .programm-day2__title {
+    background-color: #F3E4C8; }
+
+.options {
+  background: rgba(241, 241, 241, 0.9); }
+  .options-title {
+    color: #266d7a;
+    font-family: "BebasNeueBold";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px; }
+  .options-tab {
+    padding-top: 10px; }
+    .options-tab__wrappr {
+      border: 1px solid #5cbfbd;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      padding: 20px; }
+    .options-tab__title {
+      color: #58c1bf;
+      font-family: "Cervo";
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 35.1px;
+      letter-spacing: 3.9px;
+      text-align: center;
+      background-color: #F2F2F2;
+      max-width: 570px;
+      margin: auto;
+      margin-top: -31px; }
+    .options-tab__inf {
+      color: #606060;
+      font-family: "Cervo";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 1.35px;
+      text-align: left; }
+    .options-tab__total {
+      color: #58c1bf;
+      font-family: Cervo;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 1.65px;
+      text-align: right; }
+    .options-tab__subtitle {
+      color: #58c1bf;
+      font-family: Cervo;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 35.1px;
+      letter-spacing: 1.88px;
+      text-align: center;
+      margin-top: 10px; }
+
+.options-tabs {
+  padding-top: 20px; }
+  .options-tabs .slick-arrow {
+    position: absolute;
+    top: 50px;
+    z-index: 9999; }
+  .options-tabs .arrow__left {
+    left: 35px; }
+  .options-tabs .arrow__right {
+    right: 35px; }
+
+.pay {
+  padding-top: 45px; }
+  .pay-title {
+    display: block;
+    color: #f5218d;
+    font-family: "BebasNeueBold";
+    font-size: 44px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px; }
+  .pay-element__img {
+    width: 81px;
+    height: 81px;
+    margin: auto; }
+  .pay-element__img1 {
+    background: url("../img/pay/phone.png") center no-repeat; }
+  .pay-element__img2 {
+    background: url("../img/pay/card.png") center no-repeat; }
+  .pay-element__img3 {
+    background: url("../img/pay/vallet.png") center no-repeat; }
+  .pay-element__text {
+    font-family: 'Cervo';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #266d7a;
+    max-width: 92px;
+    margin: auto;
+    margin-top: 25px; }
+
+.order {
+  margin-top: 60px;
+  padding-bottom: 45px; }
+  .order-title {
+    text-align: center;
+    color: #266d7a;
+    font-family: "BebasNeueBold";
+    font-size: 46px;
+    margin-bottom: 40px; }
+  .order-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .order-number {
+    display: inline-block;
+    vertical-align: middle; }
+  .order-list {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .order-list__element {
+      color: #606060;
+      font-family: 'Cervo';
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 1.35px;
+      list-style-type: none;
+      vertical-align: middle;
+      text-align: left;
+      margin-left: 15px; }
+  .order-button {
+    background: url("../img/green.svg") center no-repeat;
+    color: #ffffff;
+    font-family: "BebasNeueBold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 65px;
+    width: 292px;
+    height: 55px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 35px; }
+  .order-subtitle {
+    color: #58c1bf;
+    font-family: 'Cervo';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-align: center; }
+
+.transport {
+  background: url("../img/transport/board.png") center no-repeat;
+  background-size: cover;
+  height: 658px;
+  padding-top: 140px; }
+  .transport-blue {
+    background-color: rgba(88, 193, 191, 0.8);
+    padding-bottom: 20px; }
+    .transport-blue__title {
+      color: #f5218d;
+      font-family: "BebasNeueBold";
+      font-size: 44px;
+      font-weight: 400;
+      line-height: 83.25px;
+      opacity: 1;
+      text-align: center; }
+    .transport-blue__discr {
+      color: #ffffff;
+      font-family: "BebasNeueBook";
+      font-size: 18px;
+      font-weight: 300;
+      text-align: center;
+      opacity: 1;
+      letter-spacing: 1.35px;
+      line-height: 31px; }
+      .transport-blue__discr span {
+        display: block; }
+
+.whywe {
+  padding-top: 20px;
+  background: rgba(241, 241, 241, 0.9);
+  padding-bottom: 30px; }
+  .whywe-title {
+    color: #f5218d;
+    font-family: "BebasNeueBold";
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center; }
+  .whywe-discr {
+    color: #266d7a;
+    font-family: "BebasNeueBook";
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 1;
+    letter-spacing: 1.35px;
+    line-height: 31px; }
+
+.feedback {
+  margin-top: 35px;
+  margin-bottom: 60px; }
+  .feedback-title {
+    color: #3c7c88;
+    font-family: "Cervo";
+    font-size: 44px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px; }
+  .feedback-photo1 {
+    background: url("../img/feedback/feedback1.png") center no-repeat; }
+  .feedback-photo2 {
+    background: url("../img/feedback/feedback2.png") center no-repeat; }
+  .feedback-photo3 {
+    background: url("../img/feedback/feedback3.png") center no-repeat; }
+  .feedback-photo4 {
+    background: url("../img/feedback/feedback4.png") center no-repeat; }
+  .feedback-photo {
+    margin-top: 20px;
+    width: 100%;
+    height: 510px; }
+
+.data {
+  background-color: #58c1bf;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  .data-checkbox {
+    font-family: "Verdana";
+    font-size: 24px;
+    color: #fff;
+    display: block; }
+  .data-input {
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #6ec9c8;
+    padding-left: 10px;
+    background-color: #fff !important; }
+  .data-button {
+    background: url("../img/yellow.svg") center no-repeat;
+    width: 237px;
+    height: 55px;
+    color: #ffffff;
+    font-family: "BebasNeueBold";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.42px;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer; }
+  .data-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 5px; }
+
+.wrapper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.container form {
+  text-align: center; }
+
+input::-webkit-input-placeholder {
+  color: #6ec9c8; }
+
+input::-moz-placeholder {
+  color: #6ec9c8; }
+
+input[type="checkbox"] {
+  display: none; }
+
+input[type="date"]:not(.has-value):before {
+  content: attr(placeholder); }
+
+.has-value {
+  font-family: "Verdana";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: #6ec9c8;
+  padding-left: 10px;
+  background-color: #fff !important; }
+
+form .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.fiveVisit-title {
+  display: block;
+  color: #f5218d;
+  font-family: "BebasNeueBold";
+  font-size: 44px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px; }
+
+.fiveVisit-discr {
+  margin-top: 25px; }
+  .fiveVisit-discr ol li {
+    color: #266d7a;
+    font-family: 'BebasNeueBook';
+    margin: auto;
+    margin-bottom: 25px;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 17px; }
+
+.fiveVisit-slid img {
+  width: 320px;
+  height: 240px;
+  margin: auto; }
+
+.fiveVisit-slider {
+  text-align: center; }
+  .fiveVisit-slider .slick-list {
+    width: 90%;
+    display: inline-block;
+    margin: auto; }
+
+.fiveVisit-button {
+  background: url("../img/transparent.svg") center no-repeat;
+  font-family: "BebasNeueBold";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 33.42px;
+  padding: 30px;
+  display: block;
+  margin: auto;
+  color: #f5218d;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 30px;
+  cursor: pointer; }
+
+.arrow__left {
+  background: url("../img/galary/prewA.png") center no-repeat;
+  width: 35px;
+  height: 66px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 90px;
+  margin-right: 15px; }
+
+.arrow__right {
+  background: url("../img/galary/nextA.png") center no-repeat;
+  width: 35px;
+  height: 66px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 90px;
+  margin-left: 15px; }
+
+.include {
+  background: #58c1bf;
+  padding-bottom: 50px; }
+  .include-title {
+    color: #266d7a;
+    font-family: "BebasNeueBold";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 83.25px;
+    text-align: center; }
+  .include-element__img {
+    background-size: cover;
+    text-align: center; }
+  .include-element__discr {
+    color: #ffffff;
+    font-family: Cervo;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1.35px;
+    text-align: center; }
+
+.bluer {
+  background-color: #72C6C5;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  opacity: 0.95;
+  display: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer; }
+
+.popup {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+  position: fixed;
+  z-index: 102;
+  top: 50px; }
+  .popup-wrapper {
+    margin-top: 15%; }
+  .popup-input {
+    display: block;
+    width: 293px;
+    color: #58c1bf;
+    font-family: "BebasNeueBook";
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #fff; }
+  .popup-button {
+    background: url("../img/yellow.svg") center no-repeat;
+    width: 160px;
+    height: 60px;
+    color: #ffffff;
+    font-family: "BebasNeueBold";
+    font-size: 26px;
+    font-weight: 400;
+    padding: 30px;
+    display: block;
+    border-radius: 5px;
+    margin: auto; }
+  .popup-close {
+    font-size: 56px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: #fff;
+    right: 40px;
+    top: 0;
+    cursor: pointer; }
+
+@media (min-width: 1200px) {
+  .programm {
+    background-size: contain; } }
+
+@media (max-width: 1200px) {
+  .wrapper-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .data-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .has-value {
+    font-family: "Verdana";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #6ec9c8;
+    padding-left: 10px;
+    background-color: #fff !important;
+    margin-top: 35px; }
+  .main-title {
+    margin-top: 50px;
+    text-align: center; }
+  .main-discr {
+    margin-top: 70px;
+    text-align: center; }
+  .main-button {
+    margin: auto; }
+  .hidden-mobile {
+    display: none; }
+  .excursionDescription-discr {
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px; }
+  .pay-element__text {
+    max-width: 190px; }
+  .pay-element {
+    margin-bottom: 15px; }
+  .order-wrapper {
+    margin-bottom: 30px; }
+  .include-element {
+    margin-bottom: 35px; }
+  .programm-day p {
+    font-size: 26px;
+    letter-spacing: 2px; }
+  .options-tab__total {
+    font-size: 28px; }
+  .options-tab__inf {
+    font-size: 28px; }
+  .data-input {
+    width: 90%;
+    font-size: 18px; }
+  .options-tab {
+    padding-top: 20px; }
+  .excursionDescription-discr {
+    margin-top: 0; }
+    .excursionDescription-discr span {
+      margin-top: 0; }
+      .excursionDescription-discr span:after {
+        content: '-';
+        display: block;
+        font-size: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+  .excursionDescription-discr2 span:last-child:after {
+    content: '';
+    display: none; }
+  .excursionDescription .container .row {
+    margin-top: 15px; }
+  .data {
+    padding-top: 0; }
+    .data-input {
+      margin-top: 35px; } }
+
+@media (max-width: 576px) {
+  .programm-day p {
+    font-size: 16px; }
+  .options-tab__inf {
+    font-size: 17px;
+    display: inline-block; }
+  .options-tab__total {
+    font-size: 18px;
+    display: inline-block; }
+  .transport-blue__title {
+    line-height: 40px; }
+  .transport-blue {
+    padding-top: 15px; }
+  .whywe-title {
+    font-size: 40px; }
+  .main-logo {
+    background-size: contain;
+    margin: 15px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto; }
+  .main-title {
+    line-height: 50px; }
+  .main-contact {
+    position: relative;
+    margin: auto;
+    right: 0; }
+    .main-contact a {
+      background-size: contain; }
+  .main-contact__phone {
+    width: 155px; }
+  .footer-payset {
+    background-size: contain;
+    vertical-align: middle; }
+  .footer-discr {
+    font-size: 9px;
+    vertical-align: middle; } }
+
+@media (max-width: 368px) {
+  .order-list {
+    padding-top: 0;
+    padding-bottom: 0; } }
